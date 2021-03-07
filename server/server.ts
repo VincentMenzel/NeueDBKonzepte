@@ -5,7 +5,6 @@ import path from "path";
 import {Socket} from "socket.io";
 import {Comment, Database, Message, NewComment, NewMessage, SocketEvents} from "./types";
 import mongodb, {MongoClient, ObjectID} from "mongodb"
-import {Types} from "mongoose";
 
 const socketIo = require("socket.io")
 
